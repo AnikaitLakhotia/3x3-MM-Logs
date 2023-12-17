@@ -1,0 +1,35 @@
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:         91341                                         |
+|  Number of clauses:          426384                                         |
+|  Parse time:                   0.22 s                                       |
+|  Eliminated clauses:           0.59 Mb                                      |
+|  Simplification time:          1.75 s                                       |
+|                                                                             |
+LBD Based Clause Deletion : 1
+Rapid Deletion : 1
+Almost Conflict : 1
+Anti Exploration : 1
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+|       100 |   20678    83753   259871 |     2000      100     21 | 40.429 % |
+|       250 |   20678    83753   259871 |     2000      250     22 | 40.429 % |
+|       475 |   20678    83753   259871 |     2000      475     23 | 40.429 % |
+|       812 |   20678    83753   259871 |     2000      812     24 | 40.429 % |
+|      1318 |   20678    83753   259871 |     2000     1318     29 | 40.429 % |
+|      2077 |   20677    83748   259854 |     2000     2076     30 | 40.430 % |
+|      3216 |   20676    83743   259844 |     2000     3214     26 | 40.431 % |
+===============================================================================
+restarts              : 25
+conflicts             : 4659           (1467 /sec)
+decisions             : 12262          (0.00 % random) (3861 /sec)
+propagations          : 5251823        (1653586 /sec)
+conflict literals     : 116197         (34.65 % deleted)
+actual reward         : 0.026490
+Memory used           : 61.00 MB
+CPU time              : 3.17602 s
+
+SATISFIABLE

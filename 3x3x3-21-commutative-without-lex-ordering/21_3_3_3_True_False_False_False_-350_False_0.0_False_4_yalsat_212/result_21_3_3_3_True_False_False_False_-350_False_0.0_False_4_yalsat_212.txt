@@ -1,0 +1,18 @@
+c YalSAT Yet Another Local Search Solver
+c Sequential Standalone Version
+c Version 1.0.1 d484bb75ca4214e4dd5d043b490356028e158599
+c Copyright (C) 2021-2022 Armin Biere University of Freiburg
+c Copyright (C) 2013-2021 Armin Biere, Johannes Kepler University Linz
+c Released Tue Dec 12 10:36:11 PST 2023
+c Compiled Tue Dec 12 10:36:11 PST 2023
+c Linux cedar1.cedar.computecanada.ca 3.10.0-1160.90.1.el7.x86_64 x86_64
+c CC gcc (GCC) 9.3.0
+c CFLAGS -Wall -DNDEBUG -O3
+c no seed specified (using default 0)
+c no flips limit set (by default)
+c no mems limit set (by default)
+c parsing 'logs/21_3_3_3_True_False_False_False_-350_False_0.0_False_4_yalsat_212/instance_21_3_3_3_True_False_False_False_-350_False_0.0_False_4_yalsat_212.cnf'
+c parsed header 'p cnf 95715 359182'
+c clause variable ratio 3.75
+c finished parsing after 0.07 seconds
+c allocated 8.1 MB after parsing
